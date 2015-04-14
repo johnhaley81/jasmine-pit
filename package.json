@@ -12,5 +12,11 @@
     "type": "git",
     "url": "git@github.com:jeffmo/jasmine-pit.git"
   },
-  "license": "MIT"
+  "scripts": {
+    "test": "jasmine"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.2.1"
+  }
 }
