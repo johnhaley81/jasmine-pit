@@ -13,10 +13,14 @@
     "url": "git@github.com:jeffmo/jasmine-pit.git"
   },
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "test-legacy": "jasmine-node . --verbose"
   },
   "license": "MIT",
   "devDependencies": {
-    "jasmine": "^2.2.1"
+    "q": "^1.2.0",
+    "jasmine": "^2.2.1",
+    "jasmine-only": "^0.1.0",
+    "jasmine-node": "^1.0"
   }
 }
