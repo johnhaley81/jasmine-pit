@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "jasmine",
-    "test-legacy": "jasmine-node . --verbose"
+    "test-legacy": "jasmine-node ."
   },
   "license": "MIT",
   "devDependencies": {
