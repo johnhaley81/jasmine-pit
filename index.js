@@ -55,7 +55,7 @@
 
   function wrapPromiseJasmine(promiseFn) {
     return function (done) {
-      var promise = promiseFn();
+      var promise = promiseFn.call(this);
 
       try {
         assertPromise(promise);
